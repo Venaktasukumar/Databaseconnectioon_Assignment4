@@ -5,7 +5,6 @@ class Databaseconnectioon{
     Logger l= Logger.getLogger("com.api.jar");
     static Databaseconnectioon st;
     String connection;
-    String connect;
     private Databaseconnectioon(String connection){
         this.connection=connection;
     }

@@ -15,7 +15,8 @@ class Databaseconnectioon{
         return st;
     }
     public void connection(String s){
-        l.info(s+" database Connection is established");
+        String k=s+" database Connection is established";
+        l.info(k);
     }
     public void closeconnection(){
         l.info("connection is closed");
